@@ -19,24 +19,27 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/akaya_telivigala"
+            android:gravity="center_horizontal"
             android:text="CALCULADORA DE IMC"
             android:textSize="20sp" />
 
         <EditText
             android:id="@+id/Peso_kg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:ems="10"
-            android:inputType="text"
-            android:text="Introduzca su peso en kg" />
+            android:gravity="center_horizontal"
+            android:hint="Introduzca su peso en kg"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/Altura_m"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:ems="10"
-            android:inputType="text"
-            android:text="Introduzca su altura en m" />
+            android:gravity="center_horizontal"
+            android:hint="Introduzca su altura en m"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/BotonCalcular"
@@ -47,13 +50,14 @@
         <TextView
             android:id="@+id/Resultado"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/Mensaje"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:textSize="16sp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
